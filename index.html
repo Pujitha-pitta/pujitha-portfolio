@@ -1,11 +1,362 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Naga Pujitha | AI & Machine Learning Engineer</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background-color: #f9fafb;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            padding: 18px;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        nav a {
+            color: #1f2937;
+            text-decoration: none;
+            margin: 0 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        section {
+            padding: 70px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        #home {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-color: #eff6ff;
+        }
+
+        #home h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        #home h2 {
+            color: #2563eb;
+            margin-bottom: 20px;
+        }
+
+        #home p {
+            max-width: 750px;
+            margin: 0 auto 25px;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 6px;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        h2.section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .about-text {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .skills {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .skill {
+            display: inline-block;
+            background-color: #e0e7ff;
+            padding: 8px 14px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 24px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+            text-align: left;
+        }
+
+        .project-card h3 {
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .project-card p {
+            margin-bottom: 12px;
+        }
+
+        .project-card a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #contact {
+            text-align: center;
+            background-color: #eff6ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f2937;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            #home h1 {
+                font-size: 36px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 6px 8px;
+            }
+        }
+    </style>
 </head>
-<body style="font-family:Arial;text-align:center;margin-top:100px;">
-    <h1>Naga Pujitha</h1>
-    <h2>AI & Machine Learning Engineer</h2>
-    <p>My portfolio is currently under development.</p>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <h1>Naga Pujitha</h1>
+            <h2>AI & Machine Learning Engineer</h2>
+
+            <p>
+                I rigorously evaluate machine learning models so teams can trust
+                their decisions, not just their accuracy.
+            </p>
+
+            <p>
+                I am a Master's student in Computer Science with interests in
+                machine learning, federated learning, explainable AI and reliable
+                model evaluation.
+            </p>
+
+            <a class="button" href="#projects">View My Projects</a>
+            <a class="button" href="https://github.com/Pujitha-pitta" target="_blank">
+                GitHub
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-text">
+                <p>
+                    I am a Master's student in Computer Science at Blekinge
+                    Institute of Technology in Sweden.
+                </p>
+
+                <p>
+                    My work focuses on machine learning, federated learning,
+                    explainability, probability calibration and model comparison.
+                    I am especially interested in building AI systems that are
+                    accurate, understandable and reliable.
+                </p>
+
+                <p>
+                    Through my thesis, coursework and FlyRank AI internship, I have
+                    worked with Python, machine learning models, data analysis,
+                    SHAP explainability, calibration metrics and GitHub-based
+                    project workflows.
+                </p>
+            </div>
+
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">Machine Learning</span>
+                <span class="skill">Federated Learning</span>
+                <span class="skill">Data Analysis</span>
+                <span class="skill">SHAP</span>
+                <span class="skill">Scikit-learn</span>
+                <span class="skill">Pandas</span>
+                <span class="skill">GitHub</span>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Federated Learning for Diabetes Prediction</h3>
+
+                    <p>
+                        This thesis compares centralized and federated machine
+                        learning approaches for diabetes prediction.
+                    </p>
+
+                    <p>
+                        The project evaluates predictive performance, probability
+                        calibration, explainability and communication efficiency.
+                        SHAP is used for interpretation and isotonic regression is
+                        used for probability calibration.
+                    </p>
+
+                    <p>
+                        <strong>Tools:</strong> Python, Scikit-learn, SHAP,
+                        Federated Learning, Isotonic Calibration
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>FlyRank Content Refresh Prioritization</h3>
+
+                    <p>
+                        I worked with a dataset containing 30,000 content pages and
+                        framed content refresh prioritization as a machine learning
+                        classification problem.
+                    </p>
+
+                    <p>
+                        I created a proxy target, detected target leakage and built
+                        a baseline action score using staleness, click-through rate,
+                        average position and impressions.
+                    </p>
+
+                    <p>
+                        <strong>Tools:</strong> Python, Pandas, Jupyter Notebook,
+                        GitHub
+                    </p>
+
+                    <a
+                        href="https://github.com/Pujitha-pitta/Flyrank-ML-internship"
+                        target="_blank"
+                    >
+                        View Repository
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Bitcoin Price Prediction</h3>
+
+                    <p>
+                        This project compared multiple machine learning models for
+                        Bitcoin price prediction using time-series data.
+                    </p>
+
+                    <p>
+                        Models were evaluated using RMSE and MAE, with attention to
+                        model complexity, interpretability and practical usefulness.
+                    </p>
+
+                    <p>
+                        <strong>Tools:</strong> Python, Machine Learning,
+                        Time-Series Analysis, Data Visualization
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+
+            <p>
+                I am open to opportunities in machine learning, AI engineering,
+                data science and software development.
+            </p>
+
+            <a
+                class="button"
+                href="https://github.com/Pujitha-pitta"
+                target="_blank"
+            >
+                GitHub
+            </a>
+
+            <a
+                class="button"
+                href="mailto:nagapujitha456@gmail.com"
+            >
+                Email Me
+            </a>
+
+            <a
+                class="button"
+                href="https://www.linkedin.com/in/naga-pujitha-pitta-bb8784255/"
+                target="_blank"
+            >
+                LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Naga Pujitha. Built with HTML, CSS and GitHub Pages.</p>
+    </footer>
+
 </body>
 </html>
